@@ -23,7 +23,7 @@ collections:
             widget: list
             allow_add: true
             fields:
-              - {label: 'Title-Id', name: 'id', widget: 'string'}
+              - {label: 'Id', name: 'id', widget: 'string'}
               - { label: 'Title', name: 'title', widget: 'string' }
               - label: 'Image'
                 name: 'image'
@@ -42,7 +42,7 @@ collections:
             widget: list
             allow_add: true
             fields:
-              - {label: 'Title-Id', name: 'id', widget: 'string'}
+              - {label: 'Id', name: 'id', widget: 'string'}
               - { label: 'Title', name: 'title', widget: 'string' }
               - { label: 'Text', name: 'body', widget: 'string' }
               - { label: 'Url', name: 'url', widget: 'string' }
