@@ -6,36 +6,28 @@ backend:
 media_folder: static/assets
 public_folder: /assets
 collections:
-    - name: 'team' 
-      label: 'Team Members'
-      label_singular: 'Team Member'
+    - name: 'overview' 
+      label: 'Overviews'
+      label_singular: 'Overview Item'
       editor:
           preview: false
       delete: false
-      preview_path: 'team'
+      preview_path: 'overview'
       files:
-          - label: 'Members'
-            name: 'members'
-            file: 'blog/data.json'
+          - label: 'Overviews'
+            name: 'overviews'
+            file: 'data/overview.json'
             fields:
-                - label: Members
-                  name: members
+                - label: Overviews
+                  name: overviews
                   widget: list
                   allow_add: true
                   fields:
-                      - { label: 'Name', name: 'name', widget: 'string' }
+                      - { label: 'Title', name: 'title', widget: 'string' }
                       - label: 'Image'
                         name: 'image'
                         widget: 'object'
                         fields:
-                            - { label: 'Photo', name: 'main', widget: 'image' }
-                            - { label: 'Photo Alt', name: 'alt', widget: 'image' }
-                      - { label: 'Position', name: 'position', widget: 'string' }
-                      - { label: 'Bio', name: 'bio', widget: 'string' }
-                      - { label: 'Background', name: 'background', widget: 'string' }
-                      - label: 'Social'
-                        name: 'social'
-                        widget: 'list'
-                        fields:
-                            - { label: 'Name', name: 'name', widget: 'string' }
-                            - { label: 'Link', name: 'link', widget: 'string' }
+                            - { label: 'Image', name: 'main', widget: 'image' }
+                            - { label: 'Image Alt', name: 'alt', widget: 'image' }
+                      - { label: 'Text', name: 'body', widget: 'string' }
