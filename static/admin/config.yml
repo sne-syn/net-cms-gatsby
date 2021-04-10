@@ -31,3 +31,4 @@ collections:
                             - { label: 'Image', name: 'main', widget: 'image' }
                             - { label: 'Image Alt', name: 'alt', widget: 'image' }
                       - { label: 'Text', name: 'body', widget: 'string' }
+                      - { label: 'Url', name: 'url', widget: 'string' }
