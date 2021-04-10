@@ -1,12 +1,28 @@
 {
   "overviews": [
     {
-      "title": "Lorem ipsum #1",
+      "title": "«Шальные годы» Монпарнаса",
+      "body": "В Музее изобразительных искусств имени Пушкина с 20 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»",
       "image": {
-        "main": "/assets/images/blog/name-01.jpg",
-        "alt": "/assets/images/blog/name-01-alt.jpg"
-      },
-      "body": "Lorem ipsum"
+        "main": "/assets/monparnasse.jpg",
+        "alt": "/assets/monparnasse.jpg"
+      }
+    },
+    {
+      "title": "Анатомия за 30 секунд",
+      "body": "Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно-популярной литературе заметно вырос",
+      "image": {
+        "main": "/assets/clay-in-the-hands.jpg",
+        "alt": "/assets/clay-in-the-hands.jpg"
+      }
+    },
+    {
+      "title": "Сферические чудаки",
+      "body": "Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды»",
+      "image": {
+        "main": "/assets/spherical-eccentrics.jpg",
+        "alt": "/assets/spherical-eccentrics.jpg"
+      }
     }
   ]
 }
