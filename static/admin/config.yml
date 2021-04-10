@@ -6,29 +6,44 @@ backend:
 media_folder: static/assets/
 public_folder: /assets/
 collections:
-    - name: 'overview' 
-      label: 'Overviews'
-      label_singular: 'Overview Item'
-      editor:
-          preview: false
-      delete: false
-      preview_path: 'overview'
-      files:
-          - label: 'Overviews'
-            name: 'overviews'
-            file: 'data/overview.json'
+  - name: 'homepage content' 
+    label: 'Homepage Content'
+    label_singular: 'Homepage Item List'
+    editor:
+      preview: false
+    delete: false
+    preview_path: 'homepage'
+    files:
+      - label: 'Overviews'
+        name: 'overviews'
+        file: 'data/overview.json'
+        fields:
+          - label: Overviews
+            name: overviews
+            widget: list
+            allow_add: true
             fields:
-                - label: Overviews
-                  name: overviews
-                  widget: list
-                  allow_add: true
-                  fields:
-                      - { label: 'Title', name: 'title', widget: 'string' }
-                      - label: 'Image'
-                        name: 'image'
-                        widget: 'object'
-                        fields:
-                            - { label: 'Image', name: 'main', widget: 'image' }
-                            - { label: 'Image Alt', name: 'alt', widget: 'string' }
-                      - { label: 'Text', name: 'body', widget: 'string' }
-                      - { label: 'Url', name: 'url', widget: 'string' }
+              - {label: "Id", name: "id", widget: "hidden", default: "{{uuid}}"}
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - label: 'Image'
+                name: 'image'
+                widget: 'object'
+                fields:
+                    - { label: 'Image', name: 'main', widget: 'image' }
+                    - { label: 'Image Alt', name: 'alt', widget: 'string' }
+              - { label: 'Text', name: 'body', widget: 'string' }
+              - { label: 'Url', name: 'url', widget: 'string' }
+    files:
+      - label: 'Promos'
+        name: 'promos'
+        file: 'data/promo.json'
+        fields:
+          - label: Promos
+            name: promos
+            widget: list
+            allow_add: true
+            fields:
+              - {label: "Id", name: "id", widget: "hidden", default: "{{uuid}}"}
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Text', name: 'body', widget: 'string' }
+              - { label: 'Url', name: 'url', widget: 'string' }
