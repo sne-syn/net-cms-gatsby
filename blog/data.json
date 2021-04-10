@@ -47,6 +47,22 @@
           "link": "https://www.facebook.com"
         }
       ]
+    },
+    {
+      "name": "The Admiral at the Lake",
+      "image": {
+        "main": "https://golang.org/lib/godoc/images/footer-gopher.jpg",
+        "alt": "https://golang.org/lib/godoc/images/footer-gopher.jpg"
+      },
+      "position": "chipmunk",
+      "bio": "Back chipmunk",
+      "background": "hghgh",
+      "social": [
+        {
+          "name": "The Admiral at the Lake",
+          "link": "https://github.com/netlify/netlify-cms/issues/2737"
+        }
+      ]
     }
   ]
 }
