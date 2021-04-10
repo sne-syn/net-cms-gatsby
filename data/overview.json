@@ -6,7 +6,8 @@
       "image": {
         "main": "/assets/monparnasse.jpg",
         "alt": "/assets/monparnasse.jpg"
-      }
+      },
+      "url": "#"
     },
     {
       "title": "Анатомия за 30 секунд",
@@ -14,7 +15,8 @@
       "image": {
         "main": "/assets/clay-in-the-hands.jpg",
         "alt": "/assets/clay-in-the-hands.jpg"
-      }
+      },
+      "url": "#"
     },
     {
       "title": "Сферические чудаки",
@@ -22,7 +24,8 @@
       "image": {
         "main": "/assets/spherical-eccentrics.jpg",
         "alt": "/assets/spherical-eccentrics.jpg"
-      }
+      },
+      "url": "#"
     }
   ]
 }
