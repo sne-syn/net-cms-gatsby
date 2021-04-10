@@ -33,7 +33,6 @@ collections:
                     - { label: 'Image Alt', name: 'alt', widget: 'string' }
               - { label: 'Text', name: 'body', widget: 'string' }
               - { label: 'Url', name: 'url', widget: 'string' }
-    files:
       - label: 'Promos'
         name: 'promos'
         file: 'data/promo.json'
