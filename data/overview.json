@@ -1,10 +1,11 @@
-{ "overviews" : [
+{
+  "overviews": [
     {
       "title": "Romeo & Juliet review – Jessie Buckley and Josh O’Connor are outstanding",
       "url": "romeo-juliet",
       "body": "Buckley and O’Connor head a terrific cast in this imaginatively pared down, made-for-TV production",
       "image": {
-        "main": "",
+        "main": "/assets/romeo_juliet.jpeg",
         "alt": "Jessie Buckley and Josh O’Connor in Romeo &amp; Juliet."
       },
       "id": "af8adf39-4b2d-40fb-a10f-e1b40e2fede0"
@@ -14,7 +15,7 @@
       "url": "oscar-2021",
       "body": "As ever when the Oscar nominations are announced, there is a sense of mystery about the industry’s revealed groupthink, that consensus which is unveiled as solemnly as the half-time score at the Super Bowl.",
       "image": {
-        "main": "",
+        "main": "/assets/oscar_2021.jpeg",
         "alt": "A gorgeously rendered monochrome fantasy ... Amanda Seyfried and Gary Oldman in David Fincher’s Mank. Photograph: Netflix/AP"
       },
       "id": "6a3c90b3-af03-48f6-8a6d-2bebf650c905"
@@ -24,7 +25,7 @@
       "url": "picasso-and-paper",
       "body": "From a cut-out dove Picasso made aged eight to the sketches that led to Guernica, this spectacular show displays a relentless creativity on any paper that came to hand",
       "image": {
-        "main": "",
+        "main": "/assets/picasso.jpeg",
         "alt": "detail from Pablo Picasso, Women at Their Toilette, Paris, winter 1937–38"
       },
       "id": "5aa97178-4661-4d5e-83e9-ae505755b72b"
