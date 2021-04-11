@@ -4,7 +4,7 @@ backend:
   branch: master
 
 media_folder: static/assets/
-public_folder: /assets/
+public_folder: ../assets/
 collections:
   - name: 'homepage content' 
     label: 'Homepage Content'
@@ -27,7 +27,8 @@ collections:
               - { label: 'Title', name: 'title', widget: 'string' }
               - label: 'Image'
                 name: 'image'
-                widget: 'object'
+                widget: 'object',
+                default: "../assets/overviews/"
                 fields:
                     - { label: 'Image', name: 'main', widget: 'image' }
                     - { label: 'Image Alt', name: 'alt', widget: 'string' }

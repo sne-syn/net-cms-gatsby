@@ -3,7 +3,7 @@ exports.createPages = ({ actions: { createPage } }) => {
   const overviewList = overviewData.overviews;
   overviewList.forEach(item => {
     createPage({
-      path: `/overviews/${item.slug}/`,
+      path: `/overviews/${item.url}/`,
       component: require.resolve("./src/components/overview.js"),
       context: {
         title: item.title,
