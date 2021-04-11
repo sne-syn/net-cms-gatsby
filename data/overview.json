@@ -2,6 +2,7 @@
   "overviews": [
     {
       "title": "Romeo & Juliet review – Jessie Buckley and Josh O’Connor are outstanding",
+      "slug": "romeo-juliet",
       "body": "Buckley and O’Connor head a terrific cast in this imaginatively pared down, made-for-TV production",
       "image": {
         "main": "/assets/overviews/romeo_juliet.jpeg",
@@ -12,6 +13,7 @@
     },
     {
       "title": "Comfort food: the Oscars nominations are not nearly as radical as they think they are",
+      "slug": "oscar-2021",
       "body": "As ever when the Oscar nominations are announced, there is a sense of mystery about the industry’s revealed groupthink, that consensus which is unveiled as solemnly as the half-time score at the Super Bowl.",
       "image": {
         "main": "/assets/overviews/oscar_2021.jpeg",
@@ -22,6 +24,7 @@
     },
     {
       "title": "Picasso and Paper: the doodling genius who loved a scrap – review",
+      "slug": "picasso-and-paper",
       "body": "From a cut-out dove Picasso made aged eight to the sketches that led to Guernica, this spectacular show displays a relentless creativity on any paper that came to hand",
       "image": {
         "main": "/assets/overviews/picasso.jpeg",
