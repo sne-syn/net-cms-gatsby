@@ -1,28 +1,17 @@
-// exports.createPages = ({ actions: { createPage } }) => {
-//   const overviewData =  require('./data/overview.json');
-//   const overviews = overviewData.overviews;
-//   overviews.forEach(item => {
-//     createPage({
-//       path: '/overviews/' + item.slug,
-//       component: require.resolve('./src/components/overview.js'),
-//       context: {
-//         title: item.title,
-//         body: item.body,
-//         url: item.url,
-//         id: item.id
-//       }
-//     })
-//   })
-// }
 exports.createPages = ({ actions: { createPage } }) => {
-  const products = require("./data/products.json")
-  products.forEach(product => {
+  const overviewData = require("./data/overview.json");
+  const overviewList = overviewData.overviews;
+  overviewList.forEach(item => {
     createPage({
-      path: `/overviews/${product.slug}/`,
-      component: require.resolve("./src/templates/product.js"),
+      path: `/overviews/${item.slug}/`,
+      component: require.resolve("./src/components/overview.js"),
       context: {
-        title: product.title,
-        description: product.body
+        title: item.title,
+        body: item.body,
+        image: item.image.main,
+        imageAlt: item.image.alt,
+        url: item.url,
+        id: item.id
       },
     })
   })
