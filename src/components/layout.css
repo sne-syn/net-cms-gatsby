@@ -1,0 +1,9 @@
+@import "../css/typography.css";
+
+body {
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: "Guardian Sans", georgia, serif;
+  font-weight: 800;
+  word-wrap: break-word;
+  font-kerning: normal;
+}
