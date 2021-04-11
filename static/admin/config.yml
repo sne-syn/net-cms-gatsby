@@ -19,7 +19,6 @@ collections:
         file: 'data/overview.json'
         fields:
           - label: Overviews
-            name: overviews
             widget: list
             allow_add: true
             fields:
