@@ -3,8 +3,8 @@ backend:
   repo: sne-syn/net-cms-gatsby
   branch: master
 
-media_folder: static/assets/
-public_folder: ../assets/
+media_folder: static/assets/overviews
+public_folder: /assets/overviews
 collections:
   - name: 'homepage content' 
     label: 'Homepage Content'
@@ -28,7 +28,6 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'object',
-                default: "../assets/overviews/"
                 fields:
                     - { label: 'Image', name: 'main', widget: 'image' }
                     - { label: 'Image Alt', name: 'alt', widget: 'string' }
