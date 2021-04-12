@@ -1,7 +1,11 @@
 const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
-  theme: {},
+  theme: { 
+    container: {
+    center: true,
+    }
+  },
   variants: {},
   plugins: [],
 }

@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import React from "react"
+import React from "react";
+import Navigation from "./navigation"
 
 const Header = () => (
-  <header className="text-center">
-    Hello World
+  <header className="container mx-auto p-4" >
+    <Navigation />
   </header>
 )
 

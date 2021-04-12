@@ -3,7 +3,7 @@
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: "Guardian Sans", georgia, serif;
-  font-weight: 800;
+  font-weight: 400;
   word-wrap: break-word;
   font-kerning: normal;
 }
