@@ -46,7 +46,7 @@ const data = [
 const tempLinks = data.map((link) => {
   return (
     <li key={link.id}>
-      <Link className="hover:bg-red-100 rounded px-2 py-1 text-xl" to={link.url}>{link.text}</Link>
+      <Link className="hover:bg-red-100 rounded px-2 py-3 text-xl" to={link.url}>{link.text}</Link>
     </li>
   );
 });
