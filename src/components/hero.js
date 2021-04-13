@@ -26,10 +26,11 @@ const Hero = () => {
     fluid={imageData}
     backgroundColor={`#040e18`}
     >
-      <h2 class="w-3/4 sm:w-auto my-auto text-white text-center text-6xl">The really empty space: do you need actors to make theatre?</h2>
-      <p class="w-3/4 sm:w-auto my-auto text-white text-center text-4xl">Theatre is often framed in terms of presence – the liveness of a performance – so its omission can feel glaringly apparent. So much so that the absence itself can have a presence.</p>
       <div className="h-96"></div>
+      <h2 class="w-3/4 sm:w-auto my-auto text-white text-center text-5xl">The really empty space: do you need actors to make theatre?</h2>
+      <p class="w-3/4 sm:w-auto my-auto text-white text-center text-3xl">Theatre is often framed in terms of presence – the liveness of a performance – so its omission can feel glaringly apparent. So much so that the absence itself can have a presence.</p>
       <div className="h-96"></div>
+      
     </BackgroundImage>
   )
 }
