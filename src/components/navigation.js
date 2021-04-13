@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <nav>
       <Link to="/">
-        <img className="p-4 mx-auto" src={logo} width="170" alt="TheGuardian" />
+        <img className="p-6 mx-auto" src={logo} width="270" alt="TheGuardian" />
       </Link>
       <PageLinks />
     </nav>
