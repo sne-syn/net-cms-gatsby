@@ -26,8 +26,8 @@ const Hero = () => {
     fluid={imageData}
     backgroundColor={`#040e18`}
     >
-      <h2 class="headline__header">We love… fashion fixes for the week ahead – in pictures</h2>
-      <p class="headline__text">M&S team up with Ghost, Diane von Furstenberg launches homeware at H&M, plus bamboo undies and football strips</p>
+      <h2 class="headline__header text-white text-center text-xl">The really empty space: do you need actors to make theatre?</h2>
+      <p class="headline__text text-white text-center">Theatre is often framed in terms of presence – the liveness of a performance – so its omission can feel glaringly apparent. So much so that the absence itself can have a presence.</p>
       <div className="h-96"></div>
       <div className="h-96"></div>
     </BackgroundImage>
