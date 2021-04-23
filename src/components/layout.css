@@ -7,3 +7,23 @@ body {
   word-wrap: break-word;
   font-kerning: normal;
 }
+
+.hero-heading {
+  font-size: 2.5rem;
+  line-height: 0.9em;
+}
+
+
+@media (min-width: 768px) {
+  .hero-heading {
+    font-size: 3.5rem;
+    line-height: 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-heading {
+    font-size: 5rem;
+    line-height: 1em;
+  }
+}

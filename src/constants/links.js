@@ -46,14 +46,14 @@ const data = [
 const tempLinks = data.map((link) => {
   return (
     <li key={link.id}>
-      <Link className="hover:bg-red-100 rounded px-2 py-3 text-xl" to={link.url}>{link.text}</Link>
+      <Link className="hover:text-red-900 px-2 py-3 text-xl" to={link.url}>{link.text}</Link>
     </li>
   );
 });
 
 export default ({ styleClass }) => {
   return (
-    <ul className={`flex justify-between ${styleClass ? styleClass : ""}`}>
+    <ul className={`flex justify-between border-t-2 border-teal-600 py-4 ${styleClass ? styleClass : ""}`}>
       {tempLinks}
     </ul>
   );

@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Header from "./header";
 import Hero from "./hero"
+import OverviewList from "./overviewList"
 import "./layout.css"
 
 const Layout = () => {
@@ -9,6 +10,7 @@ const Layout = () => {
     <div>
       <Header />
       <Hero />
+      <OverviewList />
     </div>
   )
 }

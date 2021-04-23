@@ -2,11 +2,11 @@
   "overviews": [
     {
       "id": "af8adf39-4b2d-40fb-a10f-e1b40e2fede0",
-      "title": "Jessie Buckley and Josh O’Connor in Romeo &amp; Juliet.",
+      "title": "Jessie Buckley and Josh O’Connor in Romeo and Juliet.",
       "body": "Buckley and O’Connor head a terrific cast in this imaginatively pared down, made-for-TV production",
       "url": "romeo-juliet",
       "image": {
-        "alt": "Jessie Buckley and Josh O’Connor in Romeo &amp; Juliet.",
+        "alt": "Jessie Buckley and Josh O’Connor in Romeo and Juliet.",
         "main": "/assets/overviews/romeo_juliet.jpeg"
       }
     },
@@ -21,14 +21,14 @@
       }
     },
     {
+      "id": "5aa97178-4661-4d5e-83e9-ae505755b72b",
       "title": "Picasso and Paper: the doodling genius who loved a scrap – review",
       "url": "picasso-and-paper",
       "body": "From a cut-out dove Picasso made aged eight to the sketches that led to Guernica, this spectacular show displays a relentless creativity on any paper that came to hand",
       "image": {
         "alt": "detail from Pablo Picasso, Women at Their Toilette, Paris, winter 1937–38",
         "main": "/assets/overviews/picasso.jpeg"
-      },
-      "id": "5aa97178-4661-4d5e-83e9-ae505755b72b"
+      }
     }
   ]
 }
