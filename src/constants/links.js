@@ -53,7 +53,7 @@ const tempLinks = data.map((link) => {
 
 export default ({ styleClass }) => {
   return (
-    <ul className={`flex justify-between border-t-2 border-teal-600 py-4 ${styleClass ? styleClass : ""}`}>
+    <ul className={`flex flex-wrap justify-between border-t-2 border-teal-600 py-4 ${styleClass ? styleClass : ""}`}>
       {tempLinks}
     </ul>
   );
