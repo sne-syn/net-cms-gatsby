@@ -8,10 +8,10 @@ const PromoList = () => {
       <div className="container relative z-10">
         <div className="m-auto w-3/4 md:w-3/4 lg:w-2/4">
           <h2 className="text-center uppercase font-bold text-xl py-2">Our Subscriptions</h2>
-          <div className="py-5 flex flex-col gap-y-2">
+          <div className="py-5 flex flex-col space-y-3">
             <ul className="pb-5">
               {promos.map((item) => {
-                return <li className="m-auto md:w-2/4 text-center" key={item.id}>
+                return <li className="m-auto md:w-3/5 mb-5 text-center" key={item.id}>
                 <h3 className="font-bold my-3 hover:text-red-900"><a href={`${item.url}`}>{item.title}</a></h3>
                 <p>{item.body}</p>
                 </li>
