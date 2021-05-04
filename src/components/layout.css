@@ -27,3 +27,17 @@ body {
     line-height: 1em;
   }
 }
+
+@media (min-width: 768px) {
+  .decorated-circle::after {
+    position: absolute;
+    height: 624px;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    content: '';
+    background-color: #FFFFFF;
+  }
+}
