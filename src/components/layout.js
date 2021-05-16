@@ -4,6 +4,7 @@ import Header from "./header";
 import Hero from "./hero"
 import OverviewList from "./overviewList"
 import PromoList from "./promoList"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = () => {
@@ -13,6 +14,7 @@ const Layout = () => {
       <Hero />
       <OverviewList />
       <PromoList /> 
+      <Footer />
     </div>
   )
 }
