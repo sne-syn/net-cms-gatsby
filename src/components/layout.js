@@ -1,11 +1,11 @@
-import * as React from "react"
+import * as React from 'react'
 
-import Header from "./header";
-import Hero from "./hero"
-import OverviewList from "./overviewList"
-import PromoList from "./promoList"
-import Footer from "./footer"
-import "./layout.css"
+import Header from './header'
+import Hero from './hero'
+import OverviewList from './overviewList'
+import PromoList from './promoList'
+import Footer from './footer'
+import './layout.css'
 
 const Layout = () => {
   return (
@@ -13,7 +13,7 @@ const Layout = () => {
       <Header />
       <Hero />
       <OverviewList />
-      <PromoList /> 
+      <PromoList />
       <Footer />
     </div>
   )
