@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import promoData from './../../data/promo.json'
 import {BiRightArrowAlt} from '@react-icons/all-files/bi/BiRightArrowAlt'
 
