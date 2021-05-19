@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 import promoData from './../../data/promo.json'
-import {BiRightArrowAlt} from '@react-icons/all-files/bi/BiRightArrowAlt'
+import { BiRightArrowAlt } from '@react-icons/all-files/bi/BiRightArrowAlt'
 
 const PromoList = () => {
   const promos = promoData.promos

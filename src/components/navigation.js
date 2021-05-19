@@ -1,7 +1,7 @@
 import React from 'react'
 import links from '../constants/links'
 import logo from '../../static/assets/logo.png'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 
 const Navigation = () => {
   console.log(links)

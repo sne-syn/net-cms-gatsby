@@ -1,4 +1,4 @@
-exports.createPages = ({actions: {createPage}}) => {
+exports.createPages = ({ actions: { createPage } }) => {
   const overviewData = require('./data/overview.json')
   const overviewList = overviewData.overviews
   overviewList.forEach((item) => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './header';
+import Header from './header'
 import Footer from './footer'
 
-const Overview = ({pageContext}) => (
+const Overview = ({ pageContext }) => (
   <div className="overview min-h-full grid">
     <div>
       <Header />
@@ -24,4 +24,4 @@ const Overview = ({pageContext}) => (
   </div>
 )
 
-export default Overview;
+export default Overview

@@ -1,7 +1,7 @@
 import React from 'react'
 import logoFooter from '../../static/assets/logo_white.png'
 import links from '../constants/links'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 
 const Footer = () => {
   return (
