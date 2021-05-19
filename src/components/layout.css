@@ -1,11 +1,21 @@
 @import "../css/typography.css";
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: "Guardian Sans", georgia, serif;
   font-weight: 400;
   word-wrap: break-word;
   font-kerning: normal;
+}
+
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%
 }
 
 .hero-heading {
@@ -40,4 +50,8 @@ body {
     content: '';
     background-color: #FFFFFF;
   }
+}
+
+.overview {
+  grid-template-rows: 1fr auto;
 }

@@ -5,7 +5,7 @@ import {Link} from 'gatsby'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-700 z-index-100 relative">
+    <footer className="bg-gray-700 z-index-100 relative row-start-2 row-end-3">
       <div className="container mx-auto p-4">
         <Link to="/">
           <img
