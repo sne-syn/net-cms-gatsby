@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Guardian Sans";
   src: local("Guardian Sans"),
-       url("../fonts/GuardianSansRegular.otf");
+       url("GuardianSansRegular.otf");
   font-style: normal;
   font-weight: 400;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Guardian Sans";
   src: local("Guardian Sans Bold"),
-       url("../fonts/GuardianSansBold.otf");
+       url("GuardianSansBold.otf");
   font-style: normal;
   font-weight: 800;
 }

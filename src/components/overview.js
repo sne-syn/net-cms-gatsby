@@ -8,15 +8,11 @@ const Overview = ({ pageContext }) => (
       <Header />
       <section className="my-5">
         <div className="w-9/12 sm:w-80 m-auto">
-          <img
-            className="overview__image"
-            src={pageContext.image}
-            alt={pageContext.imageAlt}
-          />
-          <h3 className="overview__heading">
-            <a href="#">{pageContext.title}</a>
+          <img src={pageContext.image} alt={pageContext.imageAlt} />
+          <h3 className="font-bold mt-5 mb-1">
+            <div>{pageContext.title}</div>
           </h3>
-          <p className="overview__text">{pageContext.body}</p>
+          <p>{pageContext.body}</p>
         </div>
       </section>
     </div>
