@@ -8,7 +8,7 @@ const OverviewList = () => {
       <h2 className="text-center uppercase font-bold text-xl py-2 tracking-wide">
         Opinion
       </h2>
-      <ul className="m-auto w-3/4 py-5 flex-wrap flex md:flex-row space-y-5 md:space-y-0 md:space-x-5">
+      <ul className="m-auto w-3/4 md:px-4 sm:w-2/4 md:w-full py-5 flex-wrap flex md:flex-row space-y-5 md:space-y-0 md:space-x-5">
         {overviewsDataList.map((item) => {
           return (
             <li className="md:flex-1 h-full w-11/12 mx-auto" key={item.id}>
