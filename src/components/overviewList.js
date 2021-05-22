@@ -12,7 +12,7 @@ const OverviewList = () => {
         {overviewsDataList.map((item) => {
           return (
             <li className="md:flex-1 h-full w-11/12 mx-auto" key={item.id}>
-              <img src={item.image.main} alt={item.image.alt} height="222" />
+              <img className="m-auto" src={item.image.main} alt={item.image.alt} height="222" />
               <h3 className="font-bold my-3 hover:text-red-900">
                 <a href={`/overviews/${item.url}`}>{item.title}</a>
               </h3>
